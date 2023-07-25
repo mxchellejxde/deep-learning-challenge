@@ -27,5 +27,14 @@ In order to design a neural network, the initial step is to preprocess the data.
 At this point of the process, a neural network model is created. Here, the input features/nodes for each layer is selected. Hidden layers and output layers with appropriate activation functions are created. Then, the model is compiled and trained, calculating the loss and accuracy with the test data. 
 
 ### Model Optimization
+To optimize the model to achieve a target predictive accuracy that is higher than 75%, different methods can be utilized. Some ways to adjust the input data to ensure that no variables or outliers are causing confusion in the model -
+  1. Dropping more or fewer columns.
+  2. Creating more bins for rare occurrences in columns.
+  3. Increasing or decreasing the number of values for each bin.
+  4. Add more neurons to a hidden layer.
+  5. Add more hidden layers.
+  6. Use different activation functions for the hidden layers.
+  7. Add or reduce the number of epochs to the training regimen.
 
+## Results
 
