@@ -44,24 +44,23 @@ The first compiling, training and evaluating of the model had an accuracy of 72.
 #### Data Preprocessing:
   1. Target Variable: `IS_SUCCECSSFUL`
   2. Feature Variables:
+     * a. `APPLICATION_TYPE`
      
-      a. `APPLICATION_TYPE`
+     * b. `AFFILIATION`
      
-      b. `AFFILIATION`
+     * c. `CLASSIFICATION`
      
-      c. `CLASSIFICATION`
+     * d. `USE_CASE`
      
-      d. `USE_CASE`
+     * e. `ORGANIZATION`
      
-      e. `ORGANIZATION`
+     * f. `STATUS`
      
-      f. `STATUS`
+     * g. `INCOME_AMT`
      
-      g. `INCOME_AMT`
+     * h. `SPECIAL CONSIDERATIONS`
      
-      h. `SPECIAL CONSIDERATIONS`
-     
-      i. `ASK_AMT`
+     * i. `ASK_AMT`
      
   4. Unused Parameters:
      
