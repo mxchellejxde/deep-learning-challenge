@@ -88,14 +88,14 @@ Loss: 55.94%
 Hyperparameters: 
     * 3 hidden layers
     * 1st hidden layer: 
-        ** 10 neurons
-        ** activation function: "relu"
+        * 10 neurons
+        * activation function: "relu"
     * 2nd hidden layer: 
-        ** 20 neurons
-        ** activation function: "relu"
+        * 20 neurons
+        * activation function: "relu"
     * 3rd hidden layer: 
-        ** 30 neurons
-        ** activation function: "relu"
+        * 30 neurons
+        * activation function: "relu"
     * epochs: 100
 Accuracy: 77.94%
 Loss: 45.88%
