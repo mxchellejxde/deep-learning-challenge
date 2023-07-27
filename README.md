@@ -44,17 +44,29 @@ The first compiling, training and evaluating of the model had an accuracy of 72.
 #### Data Preprocessing:
   1. Target Variable: `IS_SUCCECSSFUL`
   2. Feature Variables:
+     
       a. `APPLICATION_TYPE`
+     
       b. `AFFILIATION`
+     
       c. `CLASSIFICATION`
+     
       d. `USE_CASE`
+     
       e. `ORGANIZATION`
+     
       f. `STATUS`
+     
       g. `INCOME_AMT`
+     
       h. `SPECIAL CONSIDERATIONS`
+     
       i. `ASK_AMT`
-  3. Unused Parameters:
+     
+  4. Unused Parameters:
+     
       a. `EIN`
+     
       b. `NAME` - recovered for optimization process
 
 #### Alphabet Soup Charity Details:
