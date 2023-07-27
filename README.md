@@ -37,4 +37,56 @@ To optimize the model to achieve a target predictive accuracy that is higher tha
   7. Add or reduce the number of epochs to the training regimen.
 
 ## Results
+The first compiling, training and evaluating of the model had an accuracy of 72.78% and loss of 55.94%. The optimization brought the accuracy to 77.94% and a loss of 45.88%. This is due to an added layer, new activation functions, added column in the preprocessing data, etc. With a logisitic regression model, we could limit the variables and as such provide a better explanation of the data, yet the accuracy may be much lower. A classification report may be used to test changes in performance.
+
+## Summary
+
+#### Data Preprocessing:
+  1. Target Variable: `IS_SUCCECSSFUL`
+  2. Feature Variables:
+      a. `APPLICATION_TYPE`
+      b. `AFFILIATION`
+      c. `CLASSIFICATION`
+      d. `USE_CASE`
+      e. `ORGANIZATION`
+      f. `STATUS`
+      g. `INCOME_AMT`
+      h. `SPECIAL CONSIDERATIONS`
+      i. `ASK_AMT`
+  3. Unused Parameters:
+      a. `EIN`
+      b. `NAME` - recovered for optimization process
+
+#### Alphabet Soup Charity Details:
+Hyperparameters: 
+    1. 2 hidden layers
+    2. 1st hidden layer: 
+        - 80 neurons
+        - activation function: "relu"
+    3. 2nd hidden layer: 
+        - 30 neurons
+        - activation function: "relu"
+    4. epochs: 100
+Accuracy: 72.78%
+Loss: 55.94%
+
+![Model 1 Image](images/Model1AccuracyResult.png)
+
+#### Optimization of Alphabet Soup Charity Details:
+Hyperparameters: 
+    1. 3 hidden layers
+    2. 1st hidden layer: 
+        - 10 neurons
+        - activation function: "relu"
+    3. 2nd hidden layer: 
+        - 20 neurons
+        - activation function: "relu"
+    4. 3rd hidden layer: 
+        - 30 neurons
+        - activation function: "relu"
+    5. epochs: 100
+Accuracy: 77.94%
+Loss: 45.88%
+
+![Model 2 Image](images/Model2AccuracyResult.png)
 
