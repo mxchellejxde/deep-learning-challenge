@@ -88,5 +88,5 @@ Hyperparameters:
 Accuracy: 77.94%
 Loss: 45.88%
 
-[[![Model 2 Image](/images/Model2AccuracyResult.png)](https://github.com/mxchellejxde/deep-learning-challenge/blob/main/images/Model2AccuracyReport.png)](https://github.com/mxchellejxde/deep-learning-challenge/blob/main/images/Model2AccuracyReport.png)https://github.com/mxchellejxde/deep-learning-challenge/blob/main/images/Model2AccuracyReport.png
+[![/images/Model2AccuracyReport.png](https://github.com/mxchellejxde/deep-learning-challenge/blob/main/images/Model2AccuracyReport.png)
 
