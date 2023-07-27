@@ -42,42 +42,43 @@ The first compiling, training and evaluating of the model had an accuracy of 72.
 ## Summary
 
 #### Data Preprocessing:
-  1. Target Variable: `IS_SUCCECSSFUL`
-  2. Feature Variables:
-     * a. `APPLICATION_TYPE`
+  1. Target Variable:
+     * `IS_SUCCECSSFUL`
+  3. Feature Variables:
+     * `APPLICATION_TYPE`
      
-     * b. `AFFILIATION`
+     * `AFFILIATION`
      
-     * c. `CLASSIFICATION`
+     * `CLASSIFICATION`
      
-     * d. `USE_CASE`
+     * `USE_CASE`
      
-     * e. `ORGANIZATION`
+     * `ORGANIZATION`
      
-     * f. `STATUS`
+     * `STATUS`
      
-     * g. `INCOME_AMT`
+     * `INCOME_AMT`
      
-     * h. `SPECIAL CONSIDERATIONS`
+     * `SPECIAL CONSIDERATIONS`
      
-     * i. `ASK_AMT`
+     * `ASK_AMT`
      
   4. Unused Parameters:
      
-      a. `EIN`
+      * `EIN`
      
-      b. `NAME` - recovered for optimization process
+      * `NAME` - recovered for optimization process
 
 #### Alphabet Soup Charity Details:
 Hyperparameters: 
-    1. 2 hidden layers
-    2. 1st hidden layer: 
+    * 2 hidden layers
+    * 1st hidden layer: 
         - 80 neurons
         - activation function: "relu"
-    3. 2nd hidden layer: 
+    * 2nd hidden layer: 
         - 30 neurons
         - activation function: "relu"
-    4. epochs: 100
+    * epochs: 100
 Accuracy: 72.78%
 Loss: 55.94%
 
@@ -85,17 +86,17 @@ Loss: 55.94%
 
 #### Optimization of Alphabet Soup Charity Details:
 Hyperparameters: 
-    1. 3 hidden layers
-    2. 1st hidden layer: 
-        - 10 neurons
-        - activation function: "relu"
-    3. 2nd hidden layer: 
-        - 20 neurons
-        - activation function: "relu"
-    4. 3rd hidden layer: 
-        - 30 neurons
-        - activation function: "relu"
-    5. epochs: 100
+    * 3 hidden layers
+    * 1st hidden layer: 
+        ** 10 neurons
+        ** activation function: "relu"
+    * 2nd hidden layer: 
+        ** 20 neurons
+        ** activation function: "relu"
+    * 3rd hidden layer: 
+        ** 30 neurons
+        ** activation function: "relu"
+    * epochs: 100
 Accuracy: 77.94%
 Loss: 45.88%
 
