@@ -70,7 +70,7 @@ Hyperparameters:
 Accuracy: 72.78%
 Loss: 55.94%
 
-![Model 1 Image](/images/Model1AccuracyResult.png)
+![Model 1 Image](/images/Model1AccuracyReport.png)
 
 #### Optimization of Alphabet Soup Charity Details:
 Hyperparameters: 
