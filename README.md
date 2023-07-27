@@ -70,7 +70,7 @@ Hyperparameters:
 Accuracy: 72.78%
 Loss: 55.94%
 
-![Model 1 Image](/images/Model1AccuracyReport.png)
+[![/images/Model1AccuracyReport.png](https://github.com/mxchellejxde/deep-learning-challenge/blob/main/images/Model1AccuracyReport.png)](https://github.com/mxchellejxde/deep-learning-challenge/blob/main/images/Model1AccuracyReport.png)
 
 #### Optimization of Alphabet Soup Charity Details:
 Hyperparameters: 
@@ -88,5 +88,5 @@ Hyperparameters:
 Accuracy: 77.94%
 Loss: 45.88%
 
-![Model 2 Image](/images/Model2AccuracyResult.png)
+[[![Model 2 Image](/images/Model2AccuracyResult.png)](https://github.com/mxchellejxde/deep-learning-challenge/blob/main/images/Model2AccuracyReport.png)](https://github.com/mxchellejxde/deep-learning-challenge/blob/main/images/Model2AccuracyReport.png)https://github.com/mxchellejxde/deep-learning-challenge/blob/main/images/Model2AccuracyReport.png
 
