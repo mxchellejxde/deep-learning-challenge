@@ -71,14 +71,21 @@ The first compiling, training and evaluating of the model had an accuracy of 72.
 
 #### Alphabet Soup Charity Details:
 Hyperparameters: 
+
     * 2 hidden layers
+    
     * 1st hidden layer: 
+    
         - 80 neurons
         - activation function: "relu"
+        
     * 2nd hidden layer: 
+    
         - 30 neurons
         - activation function: "relu"
+        
     * epochs: 100
+    
 Accuracy: 72.78%
 Loss: 55.94%
 
@@ -86,17 +93,26 @@ Loss: 55.94%
 
 #### Optimization of Alphabet Soup Charity Details:
 Hyperparameters: 
+
     * 3 hidden layers
+    
     * 1st hidden layer: 
+    
         * 10 neurons
         * activation function: "relu"
+        
     * 2nd hidden layer: 
+    
         * 20 neurons
         * activation function: "relu"
+        
     * 3rd hidden layer: 
+    
         * 30 neurons
-        * activation function: "relu"
+        * activation function: "sigmoid"
+        
     * epochs: 100
+    
 Accuracy: 77.94%
 Loss: 45.88%
 
