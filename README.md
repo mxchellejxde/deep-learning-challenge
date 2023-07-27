@@ -98,18 +98,18 @@ Hyperparameters:
     
     * 1st hidden layer: 
     
-        * 10 neurons
-        * activation function: "relu"
+        - 10 neurons
+        - activation function: "relu"
         
     * 2nd hidden layer: 
     
-        * 20 neurons
-        * activation function: "relu"
+        - 20 neurons
+        - activation function: "relu"
         
     * 3rd hidden layer: 
     
-        * 30 neurons
-        * activation function: "sigmoid"
+        - 30 neurons
+        - activation function: "sigmoid"
         
     * epochs: 100
     
